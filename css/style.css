@@ -50,7 +50,7 @@ body{
 }
 
 section{
-    max-width: 1200px;
+    max-width: 75rem;
     margin: 0 auto;
     padding: 2rem;
 }
@@ -76,7 +76,7 @@ section{
     top: 0; left: 0; right: 0;
     z-index: 1000;
     background-color: var(--light-bg);
-    height:70px ;
+    height:4.688rem ;
 }
 
 .header .flex{
@@ -84,7 +84,7 @@ section{
     display: flex;
    
     justify-content: space-between;
-    margin-bottom: 10px;
+    margin-bottom:0.625rem;
 }
 
 .header .flex .logo{
@@ -94,7 +94,7 @@ section{
     font-weight: 400;
     font-style: normal;
     text-decoration: none;
-    margin-left: -90px;
+    margin-left: -5.625rem;
 }
 
 .header .flex .navbar a{
@@ -107,13 +107,13 @@ section{
 /*<!--download app btn section starts-->*/
 .app button{
   background-color: #2fff00;
-  border: 1px solid #040404;
-  box-shadow: 2px 2px 2px rgb(0, 0, 0);
-  border-radius: 4px;
+  border:0.063rem solid #040404;
+  box-shadow: 0.125rem  0.125rem  0.125rem  rgb(0, 0, 0);
+  border-radius: 0.25rem ;
   position: absolute;
-  width: 100px;
-  height: 30px;
-  margin: 1px 30px ;
+  width: 6.25rem;
+  height: 1.875rem ;
+  margin:0.063rem 1.875rem  ;
 }
 
 .app button a{
@@ -123,8 +123,8 @@ section{
 
 .app button:hover{
   background-color: rgb(21, 210, 100);
-  border: 1.5px solid #22ff00;
-  box-shadow: -1px 2px 5px rgb(9, 255, 0) ;
+  border: 0.094rem  solid #22ff00;
+  box-shadow: -0.063rem 0.125rem  0.313rem  rgb(9, 255, 0) ;
 }
 
 .app button:active{
@@ -146,7 +146,7 @@ section{
 
 
 .home{
-    margin-top: 110px;
+    margin-top: 6.875rem;
 }
 
 .home .row{
@@ -180,34 +180,34 @@ section{
     font-family: "Black Ops One", system-ui;
     font-weight: 400;
     font-style: normal;
-    text-shadow: 4px 5px 4px  #000000 ;
+    text-shadow: 0.25rem  0.313rem  0.25rem   #000000 ;
 
 }
 
 .home .row .btn{
-    margin-top:-3px;
+    margin-top:-0.188rem;
     background-color: rgba(40, 40, 41, 0.412);
-    border: 0.8px solid #46ea69;
+    border: 0.05rem solid #46ea69;
 }
 
 /*typing effect starts*/
 .home .row .content .container {
-    font-size: 70px;
+    font-size: 4.688rem;
     overflow: hidden;
     white-space: nowrap;
     display: inline-block;
     position: relative;
-    padding: 20px;
+    padding: 1.25rem ;
     color: #13ee07;
     font-weight: 700;
-    text-shadow: 4px 5px 4px  #000000;
-    margin-left: -5px;
+    text-shadow: 0.25rem  0.313rem  0.25rem   #000000;
+    margin-left:  0.313rem ;
   }
 
   
   .home .row .content .typing::after {
     content: "";
-    border-right: 3px solid #00ff00;
+    border-right: 0.188rem  solid #00ff00;
     position: relative;
     right: 0;
     animation: blink-caret 0.35s step-end infinite;
@@ -228,7 +228,7 @@ section{
 }
 
 .count{
-  margin-bottom: 70px;;
+  margin-bottom: 4.688rem;;
 }
 
 .count .box-container .box{
@@ -264,16 +264,16 @@ section{
 
 .info {
     width: 40%;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    padding: 30px;
+    margin-top: 1.25rem ;
+    margin-bottom:0.625rem;
+    padding: 1.875rem ;
     background: linear-gradient(135deg, #079f37, #063315);
-    border-radius: 70px 0 70px 0;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 4.688rem 0 4.688rem 0;
+    box-shadow: 00.625rem 1.25rem  rgba(0, 0, 0, 0.2);
     text-align: center;
     position: relative;
     overflow: visible; /* Changed from hidden to visible */
-    border: 1px solid #000000;
+    border:0.063rem solid #000000;
 }
 
 .info::before {
@@ -287,35 +287,35 @@ section{
 }
 
 .info h1 {
-    margin-top: 50px;
+    margin-top: 3.125rem ;
     font-weight: 550;
-    font-size: 30px;
+    font-size: 1.875rem ;
     color: #000000;
     position: relative;
     z-index: 1;
-    text-shadow: 2px 1px 9px white;
+    text-shadow: 0.125rem 0.063rem 0.563rem  white;
 }
 
 input[type="text"] {
-    width: calc(100% - 10px);
-    padding: 10px;
-    font-size: 20px;
-    border: 2px solid #5eff00;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(100% -0.625rem);
+    padding:0.625rem;
+    font-size: 1.25rem ;
+    border: 0.125rem  solid #5eff00;
+    border-radius: 0.5rem ;
+    box-shadow: 0 0.25rem  0.5rem  rgba(0, 0, 0, 0.1);
     outline: none;
     transition: all 0.3s ease;
     position: relative;
     z-index: 1;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    margin-top:0.625rem;
+    margin-bottom: 0.313rem ;
     background: rgba(255, 255, 255, 0.1);
     color: #000000;
 }
 
 input[type="text"]:focus {
     border-color: #00ff0d;
-    box-shadow: -2px 3px 10px rgb(2, 255, 6);
+    box-shadow:  -0.125rem  0.188rem 0.625rem rgb(2, 255, 6);
     background: rgba(138, 138, 138, 0.2);
 }
 
@@ -328,54 +328,54 @@ input[type="text"]::placeholder {
 
 
 .enter {
-    width: 500px;
-    height: 80px;
-    margin-left: -50px;
-    padding-bottom:30px;
+    width: 31.25rem ;
+    height: 5rem ;
+    margin-left:  -3.125rem ;
+    padding-bottom: 1.875rem ;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 0px;
-    margin-top: 40px;
+    border-radius: 0rem ;
+    margin-top: 2.5rem ;
 }
 
 .enter button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px 25px;
-    width: 160px;
-    height: 50px;
-    font-size: 20px;
+    padding: 0.625rem  1.563rem ;
+    width:  10rem ;
+    height: 3.125rem ;
+    font-size: 1.25rem ;
     font-weight: 700;
     color: #ffffff;
     background: linear-gradient(45deg, #00f915, #0f7818);
     border: none;
-    border-radius: 25px;
+    border-radius:  1.563rem ;
     cursor: pointer;
     transition: all 0.4s ease;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.5rem   0.938rem  rgba(0, 0, 0, 0.1);
     position: relative;
     overflow: hidden;
     z-index: 1;
-    border: 2px solid rgb(38, 255, 0);
+    border: 0.125rem  solid rgb(38, 255, 0);
 }
 
 .enter button:hover {
     background: linear-gradient(45deg, #038d3c, #54e70a);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 00.625rem 1.25rem  rgba(0, 0, 0, 0.2);
     transform: scale(1.05);
 }
 
 .enter button:active {
     background: linear-gradient(45deg, #e63950, #e63a20);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.313rem 0.625rem rgba(0, 0, 0, 0.1);
     transform: scale(1);
 }
 
 .enter button i {
-    font-size: 24px;
-    margin-right: 10px;
+    font-size:  1.5rem ;
+    margin-right:0.625rem;
     transition: margin-right 0.4s ease;
 }
 
@@ -386,11 +386,11 @@ input[type="text"]::placeholder {
 }
 
 .enter button:hover i {
-    margin-right: 20px;
+    margin-right: 1.25rem ;
 }
 
 .enter button:hover span {
-    margin-left: -20px;
+    margin-left:  -1.25rem ;
 }
 
 .enter button::before {
@@ -419,23 +419,23 @@ input[type="text"]::placeholder {
 
 .suggestions-list {
     background-color: rgb(0,0,0,0,0.2);
-    backdrop-filter: blur(10px); /* Adjust blur intensity */
+    backdrop-filter: blur( 0.625rem ); /* Adjust blur intensity */
     z-index: -5; /* Position it behind the content */
-    border: 1px solid #000000;
-    margin-left: 9.6px;
-    border-radius: 8px 8px 0px 0;
-    max-height: 110px;
+    border:0.063rem solid #000000;
+    margin-left:  0.6rem ;
+    border-radius: 0.5rem  0.5rem  0rem  0;
+    max-height: 6.875rem;
     overflow-y: scroll;
-    margin-top: -6px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    font-size: 19px;
+    margin-top:  -0.375rem ;
+    box-shadow: 0 0.25rem  0.5rem  rgba(0, 0, 0, 0.1);
+    font-size:  1.188rem ;
     position: absolute;
-    width: calc(100% - 20px);
+    width: calc(100% - 1.25rem );
 }
 
 .suggestions-list div {
-    padding: 5px;
-    margin:-5px 0 -7px 0;
+    padding: 0.313rem ;
+    margin: 0.313rem  0  -0.438rem  0;
     cursor: pointer;
     font-family: "Jost", sans-serif;
 }
@@ -457,42 +457,42 @@ input[type="text"]::placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -40px;
+    margin-top:  -2.5rem ;
     margin-left:22%;
 }
 
 .search .search-container {
     position: relative;
-    width: 400px;
+    width: 25rem;
 }
 
 .search .search-box {
     width: 100%;
-    height:47px;
-    padding: 20px;
-    font-size: 18px;
-    border:2px solid #00fe0d;
-    border-radius: 15px;
+    height:2.938rem;
+    padding: 1.25rem ;
+    font-size:  1.125rem ;
+    border:0.125rem solid #00fe0d;
+    border-radius:  0.938rem ;
     outline:#00ff00;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0.5rem  1rem  rgba(0, 0, 0, 0.3);
     transition: all 0.4s ease;
     background:white;
     color: #000000;
-    font-size: 18px;
+    font-size:  1.125rem ;
 }
 
 .search .search-box:focus {
-    box-shadow: 0 5px 6px rgba(20, 245, 45, 0.875);
+    box-shadow: 0 0.313rem  0.375rem  rgba(20, 245, 45, 0.875);
     background-color: white;
 }
 
 .search .search-icon {
     position: absolute;
-    right: 35px;
-    margin-right: -14px;
-    transform: translateY(-44px); /*to move the icon towards uupwards along y-axis*/
-    width: 30px;
-    height: 30px;
+    right: 2.188rem ;
+    margin-right:  -0.875rem ;
+    transform: translateY(-2.75rem); /*to move the icon towards uupwards along y-axis*/
+    width: 1.875rem ;
+    height: 1.875rem ;
     background: url('https://cdn-icons-png.flaticon.com/512/149/149852.png') no-repeat center center;
     background-size: cover;
     cursor: pointer;
@@ -501,15 +501,15 @@ input[type="text"]::placeholder {
 
 .search .search-suggestions {
     position: absolute;
-    top: 75px;
+    top: 4.688rem;
     width: 100%;
-    border-radius: 10px;
+    border-radius:0.625rem;
     background: rgba(224, 222, 222, 0.46);
-    backdrop-filter:blur(10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    backdrop-filter:blur( 0.625rem );
+    box-shadow: 0 0.5rem  1rem  rgba(0, 0, 0, 0.2);
     z-index: 1000;
     display: none;
-    max-height: 250px;
+    max-height:  15.625rem ;
     overflow-y: auto;
     animation: fadeIn 0.3s ease;
 }
@@ -520,11 +520,11 @@ input[type="text"]::placeholder {
 }
 
 .search .search-suggestions li {
-    padding: 12px 20px;
+    padding:  0.75rem  1.25rem ;
     cursor: pointer;
     list-style: none;
     transition: background 0.3s;
-    font-size: 18px;
+    font-size:  1.125rem ;
 }
 
 .search .search-suggestions li:hover {
@@ -533,13 +533,13 @@ input[type="text"]::placeholder {
 }
 
 .search .search-suggestions li:not(:last-child) {
-    border-bottom: 1px solid #eee;
+    border-bottom:0.063rem solid #eee;
 }
 
 @keyframes fadeIn {
     from {
         opacity: 0;
-        transform: translateY(-10px);
+        transform: translateY(- 0.625rem );
     }
     to {
         opacity: 1;
@@ -563,14 +563,14 @@ input[type="text"]::placeholder {
 /*card slider section starts*/
 
 .keys{
-    box-shadow:2px 2px 10px 2px #46ea69;
-    padding-top: 60px;
-    margin-top: 50px;
-    border-radius: 10px;
+    box-shadow:0.125rem 0.125rem 0.625rem 0.125rem  #46ea69;
+    padding-top:  3.75rem ;
+    margin-top: 3.125rem ;
+    border-radius:0.625rem;
 }
 
 .keys h1{
-    margin-left: 40px;
+    margin-left: 2.5rem ;
     color: white;
     span{
         color: #00ff0d;
@@ -593,8 +593,8 @@ input[type="text"]::placeholder {
     height: 1.5rem;
     border-radius: 50%;
     background: rgb(1, 255, 1);
-    margin-top: -30px;
-    margin-left: 7px;
+    margin-top: -1.875rem;
+    margin-left: 0.438rem ;
   }
   
   .keys h1::after {
@@ -605,12 +605,12 @@ input[type="text"]::placeholder {
     width: 30%;
     height: 0.3rem;
     background: var(--green);
-    margin-top: -30px;
-    margin-left: 7px;
+    margin-top: -1.875rem;
+    margin-left: 0.438rem ;
   }
 
 .slider {
-    max-width: 1100px;
+    max-width: 68.75rem;
     width: 100%;
     position: relative;
     margin: auto;
@@ -618,16 +618,16 @@ input[type="text"]::placeholder {
 
   .slider i {
     top: 50%;
-    height: 50px;
-    width: 50px;
+    height: 3.125rem ;
+    width: 3.125rem ;
     cursor: pointer;
     font-size: 1.25rem;
     position: absolute;
     text-align: center;
-    line-height: 50px;
+    line-height: 3.125rem ;
     background: #fff;
     border-radius: 50%;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 0.188rem  0.375rem  rgba(0,0,0,0.23);
     transform: translateY(-50%);
     transition: transform 0.1s linear;
   }
@@ -635,19 +635,19 @@ input[type="text"]::placeholder {
     transform: translateY(-50%) scale(0.85);
   }
   .slider i:first-child{
-    left: -22px;
+    left: -20.125rem;
   }
   .slider i:last-child{
-    right: -22px;
+    right:  -1.375rem;
   }
   .slider .carousel{
     display: grid;
     grid-auto-flow: column;
-    grid-auto-columns: calc((100% / 3) - 12px);
+    grid-auto-columns: calc((100% / 3) -  0.75rem );
     overflow-x: auto;
     scroll-snap-type: x mandatory;
-    gap: 16px;
-    border-radius: 8px;
+    gap: 1rem ;
+    border-radius: 0.5rem ;
     scroll-behavior: smooth;
     scrollbar-width: none;
   }
@@ -672,88 +672,88 @@ input[type="text"]::placeholder {
   }
   .carousel .card {
     scroll-snap-align:start;
-    height: 342px;
+    height:  21.375rem ;
     list-style: none;
     background: #fff;
     cursor: pointer;
-    padding-bottom: 15px;
+    padding-bottom:  0.938rem ;
     flex-direction: column;
-    border-radius: 50px 0 50px 0;
-    border: 2px solid #ccc;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 3.125rem  0 3.125rem  0;
+    border: 0.125rem  solid #ccc;
+    box-shadow: 0 0.25rem  0.375rem  rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
   }
 
   .carousel .card:hover{
     background-color: #b3eeb8;
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0.5rem   0.75rem  rgba(0, 0, 0, 0.2);
   }
   
   .carousel .card .img {
     background: hsl(108, 100%, 53%);
-    height: 148px;
-    width: 148px;
+    height: 9.2rem;
+    width: 9.2rem;
     border-radius: 50%;
   }
   .card .img img {
-    width: 140px;
-    height: 140px;
+    width: 8.75rem;
+    height: 8.75rem;
     border-radius: 50%;
     object-fit: cover;
-    border: 4px solid #fff;
+    border: 0.25rem  solid #fff;
   }
   .carousel .card h2 {
     font-weight: 500;
-    font-size: 25px;
-    margin: 30px 0 5px;
+    font-size:  1.563rem ;
+    margin: 1.875rem  0 0.313rem ;
   }
   .carousel .card span {
     color: #6A6D78;
-    font-size: 19px;
+    font-size:  1.188rem ;
   }
   
 
   .explore {
-    width: 500px;
-    height: 80px;
-    margin-left: 335px;
+    width: 31.25rem ;
+    height: 5rem ;
+    margin-left: 20.938rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 0px;
-    margin-top: 20px;
+    border-radius: 0rem ;
+    margin-top: 1.25rem ;
 }
 
 .explore button {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px 25px;
-    width: 160px;
-    height: 50px;
-    font-size: 20px;
+    padding:0.625rem  1.563rem ;
+    width:  10rem ;
+    height: 3.125rem ;
+    font-size: 1.25rem ;
     font-weight: 700;
     color: #000000;
     background: linear-gradient(45deg, #ffffff, #ffffff);
-    border-radius: 25px;
+    border-radius:  1.563rem ;
     cursor: pointer;
     transition: all 0.4s ease;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0.5rem   0.938rem  rgba(0, 0, 0, 0.2);
     position: relative;
     overflow: hidden;
     z-index: 1;
-    border: 1px solid rgb(0, 0, 0);
+    border:0.063rem solid rgb(0, 0, 0);
 }
 
 .explore button:hover {
     background: linear-gradient(45deg, #2af27d, #55ff00);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0.625rem 1.25rem  rgba(0, 0, 0, 0.2);
     transform: scale(1.03);
 }
 
 .explore button:active {
     background: linear-gradient(45deg, #f8f8f8, #a5a5a5);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.313rem 0.625rem rgba(0, 0, 0, 0.1);
     transform: scale(1);
 }
 
@@ -785,13 +785,13 @@ input[type="text"]::placeholder {
 
 
 
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 56.25rem) {
     .wrapper .carousel {
-      grid-auto-columns: calc((100% / 2) - 9px);
+      grid-auto-columns: calc((100% / 2) - 0.563rem );
     }
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 37.5rem) {
     .wrapper .carousel {
       grid-auto-columns: 100%;
     }
@@ -802,10 +802,10 @@ input[type="text"]::placeholder {
 
 /*--why we section starts*/
 .about {
-    max-width: 1100px;
+    max-width: 68.75rem;
     margin:auto;
-    height: 500px;
-    margin-top: 10px;
+    height: 31.25rem ;
+    margin-top:0.625rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -813,38 +813,38 @@ input[type="text"]::placeholder {
 }
 
 .why{
-  margin-top: 50px;
+  margin-top: 3.125rem ;
 }
 
 .about .image{
     
-    margin-left:-20px;
-    margin-top: 10px;
-    padding: 8px;
+    margin-left: -1.25rem ;
+    margin-top:0.625rem;
+    padding: 0.5rem ;
     
 }
 
 .about .image img{
-    width: 800px;
-    margin-left: -180px;
-    border-radius: 
+    width: 50rem;
+    margin-left: -11.25rem;
+    border-radius: 0;
 }
 
 .about .whywe{
     width: 150%;
     margin: auto;
-    font-size: 20px;
+    font-size: 1.25rem ;
 }
 
 .about .whywe h2{
-    font-size: 25px;
+    font-size:  1.563rem ;
     color: #fff;
-    border-bottom: 1px solid #8bf991;
-    text-shadow:2px 4px 2px #000000;
+    border-bottom:0.063rem solid #8bf991;
+    text-shadow: 0.125rem  0.25rem  0.125rem  #000000;
 }
 
 .about .whywe span{
-    font-size: 18px;
+    font-size:  1.125rem ;
     color: #d9e3e1;
 }
 
@@ -852,72 +852,78 @@ input[type="text"]::placeholder {
 
 /*passkey section starts-*/
 .passkey{
-    box-shadow:2px 2px 10px 2px #46ea69;
-    border-radius: 10px;
-    margin-top: 50px;
-    margin-bottom: 10px;  
+    box-shadow: 0.125rem  0.125rem 0.625rem 0.125rem  #46ea69;
+    border-radius:0.625rem;
+    margin-top: 3.125rem ;
+    margin-bottom:0.625rem;  
 }
 
 .passkey .passkey-content{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    row-gap: 20px;
-    padding: 20px;
+    row-gap: 1.25rem ;
+    padding: 1.25rem ;
 }
 
 .pass{
-    width: 230px;
-    height: 280px;
-    font-size: 20px;
+    width: 14.375rem;
+    height: 17.5rem;
+    font-size: 1.25rem ;
     text-align: center;
 }
 
 .pass .tag{
-    border-radius: 15px 15px;
-    width: 230px;
-    height: 60px;
-    max-height: 100px;
+    border-radius:  0.938rem   0.938rem ;
+    width: 14.375rem;
+    height:  3.75rem ;
+    max-height:6.25rem;
     background-color: rgb(221, 219, 219);
-    margin-top:-6px;
+    margin-top: -0.375rem ;
     position: absolute;
-    border-top: 1px dashed;
+    border-top:0.063rem dashed;
     border-top-color: #000000;
-    box-shadow: 1px 2px 5px black;
+    box-shadow:0.063rem 0.125rem  0.313rem  black;
 }
+.pass .tag:hover{
+  scale: 1.03;
+  border: 0.125rem  solid #00ff00;
+  box-shadow: 0.056rem   0.056rem  0.313rem #00ff00;
+}
+
 
 .pass .tag .store img{
     position: sticky;
-    height: 60px;
-    width: 60px;
-    transform: translate(-105px,-300px);
+    height:  3.75rem ;
+    width:  3.75rem ;
+    transform: translate(-6.563rem,- 18.75rem );
 }
 
 .pass .tag h2{
     color: #000000;
-    padding-top: 7px;
+    padding-top: 0.438rem ;
     font-weight: 500;
 }
 
 .pass .img img{
     max-width: 100%;
     max-height: 100%;
-    border-radius:15px 15px;
+    border-radius: 0.938rem   0.938rem ;
     width:100%;
-    height:200px;
-    border: 2px solid #c5c5c5;
-    box-shadow: 2px 2px 2px black;
+    height:12.5rem;
+    border: 0.125rem  solid #c5c5c5;
+    box-shadow: 0.125rem  0.125rem  0.125rem  black;
     object-fit: cover;
 }
 
 .pass .img img:hover{
   scale: 1.03;
-  border:2px solid #00ff00;
-  box-shadow:0.9px 0.9px 5px#00ff00;
+  border: 0.125rem  solid #00ff00;
+  box-shadow: 0.056rem   0.056rem  0.313rem #00ff00;
 }
 
 .passkey h1{
-    margin-left: 40px;
+    margin-left: 2.5rem ;
     color: white;
     span{
         color: #00ff0d;
@@ -965,7 +971,7 @@ Testimonial Swiper Queries Section
 } */
 
 .section-testimonial{
-  margin-top: -70px;
+  margin-top: -4.688rem;
 }
 
 .swiper {
@@ -983,7 +989,7 @@ Testimonial Swiper Queries Section
   }
 
   .container h2{
-    margin-bottom: -30px;
+    margin-bottom: -1.875rem;
     font-size: 4rem;
     font-weight: 500;
     color: white;
@@ -1016,9 +1022,9 @@ Testimonial Swiper Queries Section
   
   .swiper-slide {
     text-align: center;
-    font-size: 18px;
-    border-radius: 20px;
-    padding-right: 10px;
+    font-size:  1.125rem ;
+    border-radius: 1.25rem ;
+    padding-right:0.625rem;
     /* background: #fff; */
     
   
@@ -1042,9 +1048,9 @@ Testimonial Swiper Queries Section
   .swiper-client-msg {
     padding: 2rem 3rem 1rem 6rem;
     background-color: var(--green);
-    border-radius: 10px;
+    border-radius:0.625rem;
     text-align: left;
-    box-shadow:5px 7px 3px  #ced3ff;
+    box-shadow:0.313rem 0.438rem  0.188rem   #ced3ff;
     position: relative;
   }
   
@@ -1065,7 +1071,7 @@ Testimonial Swiper Queries Section
     content: "\f10d";
     display: inline-block;
     position: absolute;
-    margin-left: 2px;
+    margin-left: 0.125rem ;
     top: 0;
     left: 0.08rem;
     font-size: 5rem;
@@ -1080,7 +1086,7 @@ Testimonial Swiper Queries Section
     position: absolute;
     bottom: 0%;
     right: 0.08rem;
-    margin-right: 2px;
+    margin-right: 0.125rem ;
     font-size: 5rem;
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
@@ -1092,9 +1098,9 @@ Testimonial Swiper Queries Section
     width: 100%;
     height: 100%;
     object-fit: cover;
-    margin-left: 203px;
-    margin-top: 58px;
-    margin-bottom: 10px;
+    margin-left: 12.688rem;
+    margin-top: 3.625rem;
+    margin-bottom:0.625rem;
   }
   
   .swiper-client-data {
@@ -1115,12 +1121,12 @@ Testimonial Swiper Queries Section
   .swiper-client-data p:first-child {
     font-weight: bold;
     color: #ced3ff;
-    font-size:27px;
+    font-size:1.688rem;
   }
 
   .swiper-client-data p { 
     color: #ced3ff;
-    font-size:15px;
+    font-size: 0.938rem ;
   }
 
   .stars{
@@ -1133,13 +1139,13 @@ contact Section
 ======================================= */
 
 .contact .container{
-  margin-bottom: 50px;
-  margin-top: -10px;
+  margin-bottom: 3.125rem ;
+  margin-top: - 0.625rem ;
 }
 
 .contact{
-  padding: 10px;
-  margin-top: 50px;
+  padding:0.625rem;
+  margin-top: 3.125rem ;
 }
 .contact .row{
   display: flex;
@@ -1223,7 +1229,7 @@ footer section starts
 .footer-distributed{
   /*main footer area*/
   display:flex; 
-  margin-top: 90px;
+  margin-top: 5.625rem;
 }
 
 .left-area{
@@ -1242,15 +1248,15 @@ footer section starts
 
 .left-area .top .max{
   width:30%; 
-  font-size: 20px;
+  font-size: 1.25rem ;
   text-align: center;
 }
 
 .left-area .top .max .text1{
-  font-size: 24px;
+  font-size:  1.5rem ;
   font-weight: bold;
   color: var(--white);
-  box-shadow: -0.1px 2px rgb(77, 255, 0);
+  box-shadow: -0.006rem 0.125rem  rgb(77, 255, 0);
 }
 
 .left-area .top .max .text2{
@@ -1262,8 +1268,8 @@ footer section starts
   list-style: none;
   text-decoration: none;
   text-align: left;
-  padding: 30px;
-  font-size: 15px;
+  padding: 1.875rem ;
+  font-size:  0.938rem ;
 }
 
 .left-area .top .scan{
@@ -1273,47 +1279,47 @@ footer section starts
 
 
 .left-area .top .scan img{
-  transform: translateX(80px);
-  width: 250px;
-  height: 250px;
+  transform: translateX(5rem);
+  width:  15.625rem ;
+  height:  15.625rem ;
   margin: auto;
 }
 
 .left-area .top .scan p{
-  margin-bottom: -80px;
-  font-size: 15px;
+  margin-bottom: -5rem;
+  font-size:  0.938rem ;
   color: var(--white);
   text-align: center;
-  padding: 10px;
-  margin-left: 3px;
+  padding:0.625rem;
+  margin-left: 0.188rem ;
 }
 
 .left-area .top .download{
   width: 30%;
   align-items: center;
-  margin-top: -90px;
-  margin-left: 50px;
+  margin-top: -5.625rem;
+  margin-left: 3.125rem ;
 }
 
 .left-area .top .download a{
   color: var(--white);
-  padding: 18px;
+  padding:  1.125rem ;
   text-align: center;
-  font-size: 13px;
+  font-size:  0.813rem ;
   align-items: center;
 }
 
 .left-area .top .download img{
-  width: 250px;
+  width:  15.625rem ;
   margin: auto;
-  margin-left: 10px;
+  margin-left:0.625rem;
 }
 
 .left-area .top .download .app button{
   margin-left: 5.2%;
-  height: 44px;
-  width: 150px;
-  margin-top: 20px;
+  height: 2.75rem;
+  width: 9.375rem;
+  margin-top: 1.25rem ;
 }
 
 /*footer top left-side area end*/
@@ -1321,15 +1327,15 @@ footer section starts
 .footer-distributed .bottom{
   /*footer-->left-area-->bottom*/
   background: #666;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 00.063rem 0.063rem 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
   height: 40%;
   text-align: left;
-  font: bold 16px sans-serif;
+  font: bold 1rem  sans-serif;
   display:flex;
   align-items: end;
-  padding: 20px;
+  padding: 1.25rem ;
 }
 
 .footer-distributed .playstore {
@@ -1342,25 +1348,25 @@ footer section starts
 }
 
 .footer-distributed .playstore img{
-  width: 300px;
+  width:  18.75rem ;
   background-color: #e63950;
-  margin-left: 80px;
-  padding: 10px;
+  margin-left: 5rem ;
+  padding:0.625rem;
 }
 
 /* Footer left */
 
 .footer-distributed .footer-left{
   width: 30%;
-  padding-left: 20px;
-  padding-bottom: 20px;
+  padding-left: 1.25rem ;
+  padding-bottom: 1.25rem ;
 }
 
 /* The company logo */
 
 .footer-distributed h3{
   color:  #ffffff;
-  font: normal 36px 'Open Sans', cursive;
+  font: normal 2.25rem 'Open Sans', cursive;
   margin: 0;
 }
 
@@ -1372,7 +1378,7 @@ footer section starts
 
 .footer-distributed .footer-links{
   color:  #ffffff;
-  margin: 20px 0 12px;
+  margin: 1.25rem  0  0.75rem ;
   padding: 0;
 }
 
@@ -1386,7 +1392,7 @@ footer section starts
 
 .footer-distributed .footer-company-name{
   color:  #222;
-  font-size: 14px;
+  font-size:  0.875rem ;
   font-weight: normal;
   margin: 0;
 }
@@ -1395,25 +1401,25 @@ footer section starts
 
 .footer-distributed .footer-center{
   width: 30%;
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem ;
 }
 
 .footer-distributed .footer-center i{
   background-color:  #33383b;
   color: #ffffff;
-  font-size: 25px;
-  width: 38px;
-  height: 38px;
+  font-size:  1.563rem ;
+  width: 2.375rem;
+  height: 2.375rem;
   border-radius: 50%;
   text-align: center;
-  line-height: 42px;
-  margin: 10px 15px;
+  line-height: 2.625rem;
+  margin:0.625rem  0.938rem ;
   vertical-align: middle;
 }
 
 .footer-distributed .footer-center i.fa-envelope{
-  font-size: 17px;
-  line-height: 38px;
+  font-size: 1.063rem;
+  line-height: 2.375rem;
 }
 
 .footer-distributed .footer-center p{
@@ -1427,7 +1433,7 @@ footer section starts
 .footer-distributed .footer-center p span{
   display:block;
   font-weight: normal;
-  font-size:14px;
+  font-size: 0.875rem ;
   line-height:2;
 }
 
@@ -1439,11 +1445,11 @@ footer section starts
 .footer-distributed .footer-links a:before {
   content: "|";
   font-weight:300;
-  font-size: 20px;
+  font-size: 1.25rem ;
   left: 0;
   color: #fff;
   display: inline-block;
-  padding-right: 5px;
+  padding-right: 0.313rem ;
 }
 
 .footer-distributed .footer-links .link-1:before {
@@ -1454,13 +1460,13 @@ footer section starts
 
 .footer-distributed .footer-right{
   width: 40%;
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem ;
 }
 
 .footer-distributed .footer-company-about{
-  line-height: 20px;
+  line-height: 1.25rem ;
   color:  #92999f;
-  font-size: 13px;
+  font-size:  0.813rem ;
   font-weight: normal;
   margin: 0;
 }
@@ -1468,30 +1474,30 @@ footer section starts
 .footer-distributed .footer-company-about span{
   display: block;
   color:  #ffffff;
-  font-size: 14px;
+  font-size:  0.875rem ;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem ;
 }
 
 .footer-distributed .footer-icons{
-  margin-top: 25px;
+  margin-top:  1.563rem ;
 }
 
 .footer-distributed .footer-icons a{
   display: inline-block;
-  width: 35px;
-  height: 35px;
+  width: 2.188rem ;
+  height: 2.188rem ;
   cursor: pointer;
   background-color:  #33383b;
-  border-radius: 2px;
+  border-radius: 0.125rem ;
 
-  font-size: 20px;
+  font-size: 1.25rem ;
   color: #ffffff;
   text-align: center;
-  line-height: 35px;
+  line-height: 2.188rem ;
 
-  margin-right: 3px;
-  margin-bottom: 5px;
+  margin-right: 0.188rem ;
+  margin-bottom: 0.313rem ;
 }
 
 /* If you don't want the footer to be responsive, remove these media queries */
@@ -1519,9 +1525,9 @@ footer section starts
 
 
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 45rem) {
 
-@media (max-width: 991px){
+@media (max-width: 61.938rem){
     html{
         font-size: 80%;
     }
@@ -1536,7 +1542,7 @@ footer section starts
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 48rem){
     #menu-btn{
         display: inline-block;
     }
@@ -1577,7 +1583,7 @@ footer section starts
     }
 }
 
-@media (max-width: 450px){
+@media (max-width: 28.125rem){
     html{
         font-size: 50%;
     }
